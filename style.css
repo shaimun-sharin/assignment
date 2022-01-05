@@ -1,0 +1,32 @@
+body {
+    
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.name {
+    color: firebrick;
+}
+.header {
+   border-left: 2px rebeccapurple;
+   font-size:25px;
+
+}
+.intro-section {
+    display: flex;
+}
+.intro-pic {
+    height: 300px;
+    width: 65%;
+}
+.intro-para {
+    width:60%;
+    padding: 20px;
+    
+}
+    
+.intro-image {
+    width: 40%;
+    padding:20px;
+    padding-left: 40px;
+    margin-left: 40px;
+}
