@@ -37,6 +37,7 @@ body {
 
 .intro-section {
     display: flex;
+    margin-bottom: 20px;
 }
 .intro-pic {
     height: 300px;
@@ -44,12 +45,14 @@ body {
     float:right;
     padding: 10px;
     padding-top: 10px;
+    margin-bottom: 20px;
     
 }
 .intro-para {
     width:60%;
     padding: 10px;
     text-align: justify;
+    margin-bottom: 20px;
 
     
 }
@@ -57,6 +60,7 @@ body {
 .intro-image {
     width: 40%;
     padding: 10px;
+    margin-bottom: 20px;
 }
 /* middle section css */
 .skills-section {
@@ -103,6 +107,8 @@ body {
 /* third section css */
 .publication-sec {
     display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
 }
 .pub-image {
@@ -119,15 +125,82 @@ body {
     float: left;
     border-radius: 50%;
     padding-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .pub-p {
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     
 }
 .pub-h1 {
     font-size:30px;
     font-family: 'Lobster', cursive;
 }
+/* forth section css */
+.forth-section {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.work-pic {
+    height: 300px;
+    width:55%;
+    float: right;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.work-image {
+    width: 40%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.work-p {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'Twinkle Star', cursive;
+    font-size: 40px;
+}
+.fun-image {
+    width: 40%
+
+}
+.fun-pic {
+    border-radius: 50%;
+    height: 300px;
+}
+.fun {
+    display: flex;
+   border-radius:5%;
+   margin-bottom: 100px;
+   padding-bottom: 10px;
+}
+.fun-div {
+    width: 60%;
+}
+footer {
+    background-color: #D77FA1;
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer-link {
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#EA5C2B;
+    
+}
+
