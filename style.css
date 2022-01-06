@@ -1,32 +1,58 @@
 body {
-    
     padding: 0;
     font-family: 'Merriweather Sans', sans-serif;
+    margin: 10px;
+    background-color: #FEE3EC;
 }
 .name {
-    color: firebrick;
+    color:#DB6B97;
 }
 .header {
-   border-left: 2px rebeccapurple;
+   border-image-slice: 1;
    font-size:25px;
-
+   border-left:5px solid ;
+   border-image: linear-gradient(#EA5C2B,#FF7F3F);
+   border-image-slice: 1;
+   font-family: 'Lobster', cursive;
 }
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#EA5C2B,#FF7F3F);
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.link-button:hover {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(cyan, blue);
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
 .intro-section {
     display: flex;
 }
 .intro-pic {
     height: 300px;
-    width: 65%;
+    width:65%;
+    float:right;
+    padding: 10px;
+    padding-top: 10px;
+    
 }
 .intro-para {
     width:60%;
-    padding: 20px;
+    padding: 10px;
+    text-align: justify;
+
     
 }
     
 .intro-image {
     width: 40%;
-    padding:20px;
-    padding-left: 40px;
-    margin-left: 40px;
+    padding: 10px;
 }
