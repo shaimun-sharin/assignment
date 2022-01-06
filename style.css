@@ -1,9 +1,11 @@
 body {
     padding: 0;
     font-family: 'Merriweather Sans', sans-serif;
-    margin: 10px;
+    margin: 5px 80px 0px;
     background-color: #FEE3EC;
+    align-content: center;
 }
+/* top section css */
 .name {
     color:#DB6B97;
 }
@@ -51,8 +53,49 @@ body {
 
     
 }
-    
+
 .intro-image {
     width: 40%;
     padding: 10px;
+}
+/* middle section css */
+.skills-section {
+    padding-bottom: 10px;
+}
+.skills-h1 {
+    font-size:40px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.skills-div{
+    display: flex;
+    
+}
+.python{
+    background-color: #BAABDA;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 33%;
+    text-align: justify;
+}
+.Django {
+    background-color: #F3C892;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 33%;
+    text-align: justify;
+}
+.keras {
+    background-color: #FF8243;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 33%;
+    text-align: justify;
+}
+.skills-image {
+    height: 100px;
+    width: 100px;
 }
