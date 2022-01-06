@@ -23,7 +23,7 @@ body {
     background-image: linear-gradient(#EA5C2B,#FF7F3F);
     padding: 10px 40px;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .link-button:hover {
     text-decoration: none;
@@ -31,7 +31,7 @@ body {
     background-image: linear-gradient(cyan, blue);
     padding: 10px 40px;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 
@@ -72,27 +72,27 @@ body {
     
 }
 .python{
-    background-color: #BAABDA;
+    background-color: #F9F3DF;
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
-    width: 33%;
+    width: 30%;
     text-align: justify;
 }
 .Django {
-    background-color: #F3C892;
+    background-color: #D4ECDD;
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
-    width: 33%;
+    width: 30%;
     text-align: justify;
 }
 .keras {
-    background-color: #FF8243;
+    background-color: #FFBCBC;
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
-    width: 33%;
+    width: 30%;
     text-align: justify;
 }
 .skills-image {
